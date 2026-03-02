@@ -1,0 +1,41 @@
+languagesystem DFLT dflt;
+# languagesystem avst dflt;  # not used for distinction -> not needed
+
+# do not include this here
+# so we can refer to this file from Glyphs source
+# include(tables.fea);
+
+#------------------------------------------------------------------------------
+# CLASSES
+
+
+#------------------------------------------------------------------------------
+# Shared lookups
+
+feature aalt {	
+	feature rclt;
+	feature calt;
+} aalt;
+
+feature rclt {
+
+	lookup RCLT_AVESTAN {
+		lookupflag IgnoreMarks RightToLeft;
+
+		# avoid these collisions in Avestan by using calt glyphs
+		sub be-avestan' be-avestan by be-avestan.calt;
+		sub be-avestan' de-avestan by be-avestan.calt;
+		sub be-avestan' ze-avestan by be-avestan.calt;
+		sub de-avestan' de-avestan by de-avestan.calt;
+		sub de-avestan' be-avestan by de-avestan.calt;
+		sub de-avestan' ze-avestan by de-avestan.calt;
+		sub ze-avestan' de-avestan by ze-avestan.calt;
+		sub ze-avestan' be-avestan by ze-avestan.calt;
+		sub ze-avestan' ze-avestan by ze-avestan.calt;
+	} RCLT_AVESTAN;
+  
+} rclt;
+
+feature calt {
+  lookup RCLT_AVESTAN;
+} calt;
