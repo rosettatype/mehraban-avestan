@@ -6,4 +6,6 @@ Avestan and Book Pahlavi share a history, and are frequently found together in m
 
 Designer Amir Mahdi Moslehi studied manuscripts that incorporate the two scripts together. He developed Mehraban Avestan to reflect the same calligraphic lineage featured in Mehraban Book Pahlavi, but adapted its forms and dimensions to serve Avestan typesetting’s contemporary needs.
 
-The publication was funded by Rosetta and the designer
+The publication was funded by Rosetta and the designer.
+
+There is also [Mehraban Book Pahlavi](https://github.com/rosettatype/mehraban-book-pahlavi)
