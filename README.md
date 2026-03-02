@@ -8,4 +8,4 @@ Designer Amir Mahdi Moslehi studied manuscripts that incorporate the two scripts
 
 The publication was funded by Rosetta and the designer.
 
-There is also [Mehraban Book Pahlavi](https://github.com/rosettatype/mehraban-book-pahlavi)
+There is also [Mehraban Book Pahlavi](https://github.com/rosettatype/mehraban-book-pahlavi).
